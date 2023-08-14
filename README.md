@@ -38,7 +38,7 @@ Or you can add a task with context:
 err := p.AddWithContext(ctx)
 ```
 
-If the context is done, or the ParallelCap is full, `AddWithContext` will return an error.
+If the context is done, `AddWithContext` will return an error.
 
 ### Signaling Completion
 
